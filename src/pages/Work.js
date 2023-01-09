@@ -14,7 +14,7 @@ const Work = () => {
     <>
       <Navbar />
       <LinkParallax image={Bees}  link="https://www.buffbees.io/" />
-      <TextWork title="Hive Investements Buff Bees"/>
+      <TextWork title="Hive Investments"/>
       <LinkParallax image={Anna} link="https://annagradient.com/" />
       <TextWork title="AnnaGradient"/>
       <LinkParallax image={Mars} link="https://www.m3mars.xyz/"/>

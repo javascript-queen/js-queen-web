@@ -14,7 +14,7 @@ const About = () => {
     <>
       <Navbar />
       <ImageParallax image={imageTwo}  text="My story starts here" />
-      <Textbox title="Educaion"/>
+      <Textbox title="Education"/>
       <ImageParallax image={imageOne}  text="Goes places"/>
       <Iconbox title="Stack"/>
       <ImageParallax image={imageThree}  text="Continues on" />

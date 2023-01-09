@@ -8,19 +8,19 @@ const Textbox = (props) => {
       <div className='columns'>
         <div>
           <h2>2015 - 2019</h2>
-          <p>NRU HSE (MOSCOW)</p> 
+          <p>Higher School of Economics (MOSCOW)</p> 
           <p>World Economics and World Politics</p>
           <h2>2019 - 2022</h2>
-          <p>BIT (BEIJING)</p>
+          <p>Beijing Institute of Technology (BEIJING)</p>
           <p>Aerospace Engineering</p>
         </div>
         <div>
           <h2>2021 - 2022</h2>
-          <p>SBERBANK SCHOOL 21</p>
+          <p>Sberbank School 21</p>
           <p>Backend Programming (C)</p>
           <h2>2021 - 2022</h2>
-          <p>EPAM RS SCHOOL</p> 
-          <p>Front-end Development (Js, Typescript, React)</p>
+          <p>EPAM RS School</p> 
+          <p>Front-end Development (JS, Typescript, React)</p>
         </div>
       </div>
     </div>

@@ -43,7 +43,7 @@ const Podcasts = () => {
     <>
       <Navbar />
       <Podcast heading="JavaScript Abuse"/>
-      <PodcastTwo heading="Программисты Тоже Читают"/>
+      <PodcastTwo headingtwo="Программисты Тоже Читают"/>
       <div className="faqs">
         {faqs.map((faq, index) => (
           <Faq faq={faq} index={index} key={index} toggleFAQ={toggleFAQ} />
