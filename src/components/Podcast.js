@@ -1,7 +1,7 @@
 import React from 'react'
 import './Podcast.css'
 
-const Podcast = (props) =>  {
+const Podcast = (props) => {
     return (
       <div className='hero-podcast'>
       <div className='content-podcast'>
