@@ -1,18 +1,19 @@
-import React from 'react'
 import './Podcast.css'
+import React from 'react'
 
 const Podcast = (props) => {
     return (
-      <div className='hero-podcast'>
-      <div className='content-podcast'>
-        <h1>{props.heading}</h1>
-        <div className='buttons'>
-        <a href='https://anchor.fm/js-abuse' className='btn-light btn-podcast' style={{color: "#FFFFFF"}} target="_blank" rel="noreferrer" >Podcast Website</a>
-        <a href='https://medium.com/@js-queen' className='btn-light btn-podcast' style={{color: "#FFFFFF"}} target="_blank" rel="noreferrer" >Medium</a>
-        </div>
+      <div className='hero-podcast-two'>
+        <div className='content-podcast-two'>
+          <h1>{props.heading}</h1>
+          <div className='buttons'>
+            <a href='https://anchor.fm/js-abuse' className='btn btn-podcast-two' style={{color: "#2E194B"}} target="_blank" rel="noreferrer" >JS Abuse</a>
+            <a href='https://anchor.fm/programmersreadbooks' className='btn-light btn-podcast-two' style={{color: "#FFFFFF"}} target="_blank" rel="noreferrer" >Programmers Read Too</a>
+          </div>
       </div>
     </div>
     )
   }
 
 export default Podcast
+

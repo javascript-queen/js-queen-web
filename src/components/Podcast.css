@@ -1,12 +1,12 @@
-.hero-podcast {
+.hero-podcast-two {
   height: 100vh;
   width: 100%;
   position: relative;
 }
 
-.hero-podcast:before {
+.hero-podcast-two:before {
   content:'';
-  background: url('../assets/img/logo-js-abuse-01.png') no-repeat center center;
+  background: url('../assets/img/programmers.png') no-repeat center center;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -16,7 +16,7 @@
   z-index: -1;
 }
 
-.hero-podcast .content-podcast {
+.hero-podcast-two .content-podcast-two {
   text-align: center;
   position: absolute;
   margin: auto;
@@ -25,37 +25,38 @@
   top: 45vh;
 }
 
-.hero-podcast .content-podcast h1 {
+.hero-podcast-two .content-podcast-two h1 {
   font-size: 4rem;
-  color: #2E194B;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 2px #000000;
 }
 
 
-.hero-podcast .btn-podcast {
+.hero-podcast-two .btn-podcast-two {
   margin: 1rem .5rem;
 }
 
-.hero-podcast .buttons {
+.hero-podcast-two .buttons {
   display: flex;
   justify-content: center;
 }
 
-@media screen and (max-width:640px) {
-  .content-podcast h1 {
+@media screen and (max-width: 640px) {
+  .content-podcast-two h1 {
       font-size: 3rem;
   }
 
-  .content-podcast p {
+  .content-podcast-two p {
       font-size: 1.4rem;
       margin-bottom: 1.6rem;
   }
   
-  .hero-podcast .content-podcast h1 {
+  .hero-podcast-two .content-podcast-two h1 {
     font-size: 3rem;
-    color: #2E194B;
+    color: #FFFFFF;
     margin-bottom: 20px;
   }
-  .hero-podcast .btn {
+  .hero-podcast-two .btn {
     margin-bottom: 10px;
   }
 }
