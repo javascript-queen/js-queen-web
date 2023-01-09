@@ -1,8 +1,6 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './ContactForm.css'
-import useLocalStorage from 'use-local-storage'
-import { DarkModeSwitch } from 'react-toggle-dark-mode';
 
 const ContactForm = () => {
   
