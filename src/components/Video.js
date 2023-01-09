@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import { Link } from 'react-router-dom'
 import './Video.css'
-import chessVideo from '../assets/video-main.mp4'
+import chessVideo from '../assets/video-main.webm'
 import PDF from '../assets/doc/jsqueen-cv.pdf'
 
 const Video = () => {
@@ -11,8 +11,8 @@ const Video = () => {
   }
   return (
     <div className='hero'>
-      <video autoPlay loop muted playsInline id="video" ref={videoRef}   onCanPlay={() => setPlayBack()}>
-        <source src={ chessVideo } type="video/mp4" />
+      <video autoPlay preload="auto" loop muted playsInline id="video" ref={videoRef}   onCanPlay={() => setPlayBack()}>
+        <source src={ chessVideo } type="video/webm" />
       </video>
       <div className='content'>
         <h1>Welcome to the World of JS Queen</h1>
