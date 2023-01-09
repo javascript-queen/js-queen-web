@@ -1,15 +1,12 @@
-import React, { useRef } from 'react'
-import chessVideo from '../assets/video-main.webm'
+import React from 'react'
+import chessVideo from '../assets/video-main.mp4'
 
 const HeroImageBlog = () => {
-  const videoRef = useRef()
-  const setPlayBack = () => {
-    videoRef.current.playbackRate = 0.5
-  }
+
   return (
     <div className='hero'>
-      <video autoPlay loop muted playsInline id="video" ref={videoRef}   onCanPlay={() => setPlayBack()}>
-        <source src={ chessVideo } type="video/webm" />
+      <video autoPlay loop muted playsInline id="video">
+        <source src={ chessVideo } type="video/mp4" />
       </video>
       <div className='content'>
         <h1>My Medium Blog</h1>

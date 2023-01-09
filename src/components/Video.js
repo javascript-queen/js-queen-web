@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import chessVideo from '../assets/video-main.webm'
+import chessVideo from '../assets/video-main.mp4'
 import PDF from '../assets/doc/jsqueen-cv.pdf'
 
 const Video = () => {
@@ -8,7 +8,7 @@ const Video = () => {
   return (
     <div className='hero'>
       <video autoPlay preload="auto" loop muted playsInline id="video">
-        <source src={ chessVideo } type="video/webm" />
+        <source src={ chessVideo } type="video/mp4" />
       </video>
       <div className='content'>
         <h1>Welcome to the World of JS Queen</h1>
