@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import { FaInstagram, FaTwitter, FaGithub, FaLinkedin, FaEnvelope, FaLocationArrow, FaTelegram } from 'react-icons/fa'
+import { FaInstagram, FaTwitter, FaGithub, FaLinkedin, FaEnvelope, FaLocationArrow, FaTelegram, FaCopyright } from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -17,6 +17,12 @@ const Footer = () => {
             <FaEnvelope className="icon icon-location" size={20} styles={{color: '#2E194B', marginRight: '2rem'}} />
             <div>
             <h4 onClick={() => window.location = 'mailto:jsqueen.design@gmail.com'}>jsqueen.design@gmail.com</h4>
+            </div>
+          </div>
+          <div className="location">
+            <FaCopyright className="icon icon-location" size={20} styles={{color: '#2E194B', marginRight: '2rem'}} />
+            <div>
+            <h4>JS Queen 2023</h4>
             </div>
           </div>
         </div>
