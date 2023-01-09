@@ -1,0 +1,30 @@
+
+.parallax-text {
+  padding: 3rem 1rem;
+  color: #2E194B;
+  background: #FFFFFF;
+}
+
+.parallax-text h1 {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.parallax-text P {
+  font-size: 1rem;
+  padding-bottom: 0.7rem;
+}
+
+.parallax-text .columns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 4px;
+  justify-items: center;
+}
+
+@media screen and (max-width: 640px) {
+  .parallax-text .columns {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}

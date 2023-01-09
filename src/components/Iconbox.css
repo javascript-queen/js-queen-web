@@ -1,0 +1,17 @@
+
+.parallax-icons {
+  padding: 3rem 1rem;
+  color: #2E194B;
+  background: #FFFFFF;
+}
+
+.parallax-icons .icons {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.parallax-icons h1 {
+  text-align: center;
+  padding-bottom: 1rem;
+}
