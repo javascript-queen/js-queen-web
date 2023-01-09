@@ -56,7 +56,8 @@
     color: #FFFFFF;
     margin-bottom: 20px;
   }
-  .hero-podcast-two .btn {
+  .hero-podcast-two a {
     margin-bottom: 10px;
+    font-size: 0.9rem;
   }
 }
