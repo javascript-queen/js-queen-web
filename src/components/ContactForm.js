@@ -17,29 +17,8 @@ const ContactForm = () => {
       });
       form.current.reset();
   };
-  // const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  // const [theme, setTheme] = useLocalStorage('theme', defaultDark ? 'dark' : 'light');
-  
-  // const switchTheme = () => {
-  //   const newTheme = theme === 'light' ? 'dark' : 'light';
-  //   setTheme(newTheme);
-  // }
-
-  // const [isDarkMode, setDarkMode] = useState(false);
-
-  // const toggleDarkMode = () => {
-  //   setDarkMode();
-  // };
 
   return (
-    // <div data-theme={theme}>
-    // <DarkModeSwitch
-    //   onChange={toggleDarkMode} 
-    //   onClick={switchTheme} 
-    //   checked={isDarkMode} />
-    //   {theme === 'light' ? 'Dark' : 'Light'}
-
-  
     <form ref={form} onSubmit={sendEmail}>
       <label>Name</label>
       <input type="text" name="name" required />

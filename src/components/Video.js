@@ -1,6 +1,5 @@
 import React, { useRef } from 'react'
 import { Link } from 'react-router-dom'
-import './Video.css'
 import chessVideo from '../assets/video-main.webm'
 import PDF from '../assets/doc/jsqueen-cv.pdf'
 
