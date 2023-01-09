@@ -1,16 +1,13 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import chessVideo from '../assets/video-main.webm'
 import PDF from '../assets/doc/jsqueen-cv.pdf'
 
 const Video = () => {
-  const videoRef = useRef()
-  const setPlayBack = () => {
-    videoRef.current.playbackRate = 0.5
-  }
+
   return (
     <div className='hero'>
-      <video autoPlay preload="auto" loop muted playsInline id="video" ref={videoRef}   onCanPlay={() => setPlayBack()}>
+      <video autoPlay preload="auto" loop muted playsInline id="video">
         <source src={ chessVideo } type="video/webm" />
       </video>
       <div className='content'>
