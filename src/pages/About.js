@@ -13,9 +13,9 @@ const About = () => {
   return (
     <>
       <Navbar />
-      <ImageParallax image={imageOne}  text="My story starts here" />
+      <ImageParallax image={imageTwo}  text="My story starts here" />
       <Textbox title="Educaion"/>
-      <ImageParallax image={imageTwo}  text="Goes places"/>
+      <ImageParallax image={imageOne}  text="Goes places"/>
       <Iconbox title="Stack"/>
       <ImageParallax image={imageThree}  text="Continues on" />
       <IconboxSkills title="Skills"/>
