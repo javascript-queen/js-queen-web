@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import Podcast from '../components/Podcast'
+import YouTubeComponent from '../components/YouTubeComponent'
 import Faq from '../components/Faq'
 
 
-const Podcasts = () => {
+const YouTube = () => {
   const [faqs, setFaqs] = useState([
     {
       question: "Which podcasts do you lead?",
@@ -42,7 +42,7 @@ const Podcasts = () => {
   return (
     <>
       <Navbar />
-      <Podcast heading="My podcasts"/>
+      <YouTubeComponent heading="YouTube"/>
       <div className="faqs">
         {faqs.map((faq, index) => (
           <Faq faq={faq} index={index} key={index} toggleFAQ={toggleFAQ} />
@@ -53,4 +53,4 @@ const Podcasts = () => {
   )
 }
 
-export default Podcasts
+export default YouTube
