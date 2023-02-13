@@ -9,23 +9,33 @@ const Home = () => {
     {
       question: "What can I find on the website?",
       answer:
-        "This website is showcasing my projects: from websites to my blog and podcasts.",
+        "This website is showcasing my projects: from websites to my blog and YouTube channel.",
       open: false
     },
     {
-      question: "Which podcasts do you lead?",
-      answer: "I made one podcast for developers named JS Abuse. It's an English podcast. My other podcast, Programmers Read Too, is fully in Russian.",
+      question: "I want to be a guest on your chanel. How to schedule time with you?",
+      answer: "I have specific hours during the week at which I can work with you for 60 minutes in person. The call is completely free but I record the call for my channel. After you book an appointment with me, you’ll get all the technicalities to the provided email.",
       open: false
     },
     {
-      question: "What is so special about your podcast JS Abuse?",
-      answer: "JS Abuse is connected to my blog series. So, if you don't like podcasts or need to check the links I'm mentioning, feel free to check out my blog. This podcast is about all things JavaScript and beyond. You'll find out more about NASA using JS for its programs, my go-to podcasts for developers, choosing your first language to kick start your dev career, and many more.",
+      question: "What exactly I'm receiving with an email from you after I've booked a call?",
+      answer: "You'll get a link to my skype, a link to the google drive folder with the materials for preparation, the time info for our call which you can save to any calendar you’re using.",
       open: false
     },
     {
       question:
-        "Why should I listen to  Programmers Read Too?",
-      answer: "My second podcast is made in the form of a conversation with the authors of the books I've read. I state the questions I'd have loved to discuss with them, giving you a brief description of what you can find in the book, and trying to stay pretty objective while summarizing my thoughts.",
+        "I booked a call, what’s next?",
+      answer: "First and foremost, thank you for booking that call! I’m sure I can help you to nail your interview. Well, you’ll get an email from me with all the details and links specified in a previous question. If you didn’t get anything, please, email me privately: jsqueen.design@gmail.com",
+      open: false
+    },
+    {
+      question: "Why don't you have a subscription link on your website?",
+      answer: "I personally don't like newsletters. I decided that even though it's an interesting marketing concept to get more followers. I don't want to have it for now. I want you to work through your interview with my materials. All the instructions will be on the google drive but still remember to: ask me any questions beforehand on telegram/skype/WhatsApp/email and send me your notes for me to go through them and to help you to correct some grammar or incoherence problems if any",
+      open: false
+    },
+    {
+      question: "What if I don’t want to record the call?",
+      answer: "The call is completely free but I record the call for my channel. In case of your disagreement to be recorded please don’t book a call.",
       open: false
     },
     {
@@ -36,6 +46,11 @@ const Home = () => {
     {
       question: "How can I contact you?",
       answer: "You can find the links to my social media below. Plus, I have a contact form, which I read daily. Feel free to connect with me.",
+      open: false
+    },
+    {
+      question: "Which platform do you use for a call?",
+      answer: "Currently I’m using Skype for a call. I have several reasons for choosing this platform: 1) we can save each other’s contacts there; 2) you’re getting a copy of your recording, too; 3) there’s no time limit for the call so in case we need to spend more time for some reason, there’s no technical limit to it",
       open: false
     },
   ]);

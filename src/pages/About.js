@@ -5,7 +5,7 @@ import ImageParallax from '../components/ImageParallax'
 import Textbox from '../components/Textbox'
 import Iconbox from '../components/Iconbox'
 import IconboxSkills from '../components/IconboxSkills'
-import imageOne  from '../assets/img/china.jpg'
+import imageOne  from '../assets/img/model.jpg'
 import imageTwo  from '../assets/img/tsinghua.jpg'
 import imageThree  from '../assets/img/kazan.webp'
 
