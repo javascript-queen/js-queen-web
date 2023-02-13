@@ -9,7 +9,7 @@ const HeroImageBlog = () => {
         <source src={ chessVideo } type="video/mp4" />
       </video>
       <div className='content'>
-        <h1>My Medium Blog</h1>
+        <h1>My Medium Blog: Javascript Abuse</h1>
         <p>Scroll down to see the content</p>
         <div>
           <a href="https://medium.com/@js-queen" target="_blank" rel="noreferrer" className='btn'>Medium</a>

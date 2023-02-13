@@ -31,7 +31,7 @@ const BlogMedium = () => {
 
   const newArray = mediumData
   .filter(article => article.categories.length > 0)
-  .slice(0, 6);
+  .slice(0, 20);
 
   return (
     <div id="blog" className="container-fluid mt-4">
