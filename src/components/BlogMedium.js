@@ -31,7 +31,7 @@ const BlogMedium = () => {
 
   const newArray = mediumData
   .filter(article => article.categories.length > 0)
-  .slice(0, 20);
+  .slice(0, 9);
 
   return (
     <div id="blog" className="container-fluid mt-4">
@@ -45,7 +45,7 @@ const BlogMedium = () => {
                 <CardImg top width="100%" src={article.thumbnail} alt="img" />
                 <CardBody>
                   <CardTitle>
-                    <a href={article.link}>{article.title}</a>
+                    <a href={article.link} target="_blank" rel="noopener noreferrer">{article.title}</a>
                   </CardTitle>
                   <CardSubtitle>
                     Published:{" "}
