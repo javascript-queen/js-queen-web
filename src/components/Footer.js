@@ -7,12 +7,12 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-container">
         <div className="left">
-          <div className="location">
+          {/* <div className="location">
             <FaLocationArrow className="icon icon-location" size={20} styles={{color: '#2E194B', marginRight: '2rem'}} />
             <div>
               <a href="https://www.google.com/maps?q=mexico,+queretaro&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiD3biD9rf8AhUcIEQIHRUkBOEQ_AUoAXoECAEQAw" target="_blank" rel="noreferrer"><h4>Mexico, Querétaro</h4></a>
             </div>
-          </div>
+          </div> */}
           <div className="location">
             <FaEnvelope className="icon icon-location" size={20} styles={{color: '#2E194B', marginRight: '2rem'}} />
             <div>
@@ -27,10 +27,10 @@ const Footer = () => {
           </div>
         </div>
         <div className="right">
-          <h4>About</h4>
+          <h3>About</h3>
           <p>Hey! I'm JS Queen. I am here to make 
             your websites fast, responsive, and beautiful. 
-            I've been Senior Dev for several projects both 
+            I've been working as a Senior Dev for several projects both 
             on- and off-chain, and I understand 
             how important a high-quality job is for industries 
             in which a minor mistake can make 
