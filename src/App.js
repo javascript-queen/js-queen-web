@@ -14,9 +14,9 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
-        <Route path='/work' element={<Work />} />
-        <Route path='/youtube' element={<YouTube />} />
-        <Route path='/blog' element={<Blog />} />
+        <Route path='/work' element={<Front />} />
+        <Route path='/youtube' element={<Data Analysis />} />
+        <Route path='/blog' element={<Web3 />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
     </>
